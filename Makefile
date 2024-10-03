@@ -15,4 +15,4 @@ stop:
 	docker compose -f $(FILE) stop
 
 status:
-	docker ps
+	docker compose -f $(FILE) ps
